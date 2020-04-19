@@ -1,0 +1,17 @@
+{
+  "Id": "MyPolicy",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadForGetBucketObjects",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::mytical-mysfits-94/*"
+    }
+  ]
+}
+
+docker build . -t REPLACE_ME_AWS_ACCOUNT_ID.dkr.ecr.REPLACE_ME_REGION.amazonaws.com/mythicalmysfits/service:latest
+
+636839656075.dkr.ecr.us-east-1.amazonaws.com/mythicalmysfits/service:latest
