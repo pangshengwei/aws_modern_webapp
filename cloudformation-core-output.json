@@ -1,0 +1,23 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:636839656075:stack/MythicalMysfitsCoreStack/da9740f0-7f23-11ea-b85a-0addedaaaadd", 
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }, 
+            "Description": "This stack deploys the core network infrastructure and IAM resources to be used for a service hosted in Amazon ECS using AWS Fargate.", 
+            "Tags": [], 
+            "DeletionTime": "2020-04-15T14:17:41.789Z", 
+            "EnableTerminationProtection": false, 
+            "CreationTime": "2020-04-15T14:17:35.822Z", 
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM"
+            ], 
+            "StackName": "MythicalMysfitsCoreStack", 
+            "NotificationARNs": [], 
+            "StackStatus": "ROLLBACK_COMPLETE", 
+            "DisableRollback": false, 
+            "RollbackConfiguration": {}
+        }
+    ]
+}
